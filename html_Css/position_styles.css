@@ -1,13 +1,8 @@
-p {
-    margin: 0px;
-    position: relative;
-    top: 40px;
-}
 
 .first-box-container {
 
-  width: 160px;
-  height: 120px;
+  width: 180px;
+  height: 100px;
 
   background-color: red;
 
@@ -16,7 +11,8 @@ p {
   color: rgb(60, 29, 173);
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
+  padding-top: 30px;
   
   
   
@@ -29,19 +25,20 @@ p {
 
 .second-box-container {
 
-  width: 160px;
-  height: 120px;
+  width: 180px;
+  height: 100px;
 
   background-color: yellow;
 
   position: relative;
-  top: -136px;
-  left: 200px;
+  top: -146px;
+  left: 220px;
 
   color: rgb(60, 29, 173);
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
+  padding-top: 30px;
   
   border-style: solid;
   border-width: 8px;
@@ -51,20 +48,21 @@ p {
 
 .third-box-container {
 
-  width: 160px;
-  height: 120px;
+  width: 180px;
+  height: 100px;
 
   background-color: green;
 
   position: relative;
-  top: -272px;
-  left: 400px;
+  top: -292px;
+  left: 440px;
 
   color: rgb(60, 29, 173);
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
-  
+  font-size: 16px;
+  padding-top: 30px;
+
   border-style: solid;
   border-width: 8px;
   border-color: rgb(255, 255, 0);
