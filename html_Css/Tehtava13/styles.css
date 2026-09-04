@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+    
 }
 
 /* Header */
@@ -45,6 +46,7 @@ main {
     margin: 0 auto;
     padding: 20px;
     flex: 1;
+    text-align: left;
 }
 
 /* Image scaling */
@@ -53,8 +55,9 @@ img {
     max-width: 38%;
     height: auto;
     display: block;
-    margin: 40px auto;
+    margin: 30px auto;
 }
+
 
 /* Footer */
 footer {
@@ -65,3 +68,16 @@ footer {
     margin-top: 40px;
     border-top: 2px solid #444;
 }
+
+h4{
+    color: #ddd;
+}
+
+.gallery {
+    display: grid;
+    flex-wrap: wrap; /* Rivittää kuvat automaattisesti */
+    gap: 10px; /* Väli kuvien välillä */
+    justify-content: center;
+}
+
+
