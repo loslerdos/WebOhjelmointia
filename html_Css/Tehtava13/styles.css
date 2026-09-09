@@ -52,7 +52,7 @@ main {
 /* Image scaling */
 img {
    
-    max-width: 38%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 30px auto;
