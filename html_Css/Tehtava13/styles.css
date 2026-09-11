@@ -80,4 +80,19 @@ h4{
     justify-content: center;
 }
 
+.keskikoko {
+    font-size: 18px;
+    line-height: 1.2;
+    
+    
+}
+
+.container {
+    margin-top: 150px;
+  }
+
+.container2 {
+    margin-left: 240px;
+}
+
 
