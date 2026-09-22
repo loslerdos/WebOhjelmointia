@@ -23,14 +23,14 @@
     $alennus_eur_fmt = number_format($alennus_eur, 2, ',', '');
     $loppusumma_fmt = number_format($loppusumma, 2, ',', '');
 
-    echo "Tuote: $tuotteen_nimi<br>";
-    echo "Kappalehinta: $hinta_kpl_fmt €<br>";
-    echo "Määrä: $kappalemäärä kpl<br>";
+    echo "Tuote: ". $tuotteen_nimi . "<br>";
+    echo "Kappalehinta: " . $hinta_kpl_fmt . " €<br>";
+    echo "Määrä: " . $kappalemäärä . " kpl<br>";
     echo "-----------------------------------<br>";
-    echo "Välisumma: $välisumma_fmt €<br>";
+    echo "Välisumma: " . $välisumma_fmt . " €<br>";
     echo "Alennus ($alennusprosentti%): $alennus_eur_fmt €<br>";
     echo "-----------------------------------<br>";
-    echo "<strong>Lopullinen hinta: $loppusumma_fmt €</strong><br>";
+    echo "<strong>Lopullinen hinta: " . $loppusumma_fmt . " €</strong><br>";
     ?>
 
 </body>
