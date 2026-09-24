@@ -18,19 +18,19 @@
     $alennus_eur = $välisumma * ($alennusprosentti / 100);
     $loppusumma = $välisumma - $alennus_eur;    
 
-    $hinta_kpl_fmt = number_format($hinta_kpl, 2, ',', '');
-    $välisumma_fmt = number_format($välisumma, 2, ',', '');
-    $alennus_eur_fmt = number_format($alennus_eur, 2, ',', '');
-    $loppusumma_fmt = number_format($loppusumma, 2, ',', '');
+    $hinta_kpl_format = number_format($hinta_kpl, 2, ',', '');
+    $välisumma_format = number_format($välisumma, 2, ',', '');
+    $alennus_eur_format = number_format($alennus_eur, 2, ',', '');
+    $loppusumma_format = number_format($loppusumma, 2, ',', '');
 
     echo "Tuote: ". $tuotteen_nimi . "<br>";
-    echo "Kappalehinta: " . $hinta_kpl_fmt . " €<br>";
+    echo "Kappalehinta: " . $hinta_kpl_format . " €<br>";
     echo "Määrä: " . $kappalemäärä . " kpl<br>";
     echo "-----------------------------------<br>";
-    echo "Välisumma: " . $välisumma_fmt . " €<br>";
-    echo "Alennus ($alennusprosentti%): $alennus_eur_fmt €<br>";
+    echo "Välisumma: " . $välisumma_format . " €<br>";
+    echo "Alennus ($alennusprosentti%): $alennus_eur_format €<br>";
     echo "-----------------------------------<br>";
-    echo "<strong>Lopullinen hinta: " . $loppusumma_fmt . " €</strong><br>";
+    echo "<strong>Lopullinen hinta: " . $loppusumma_format . " €</strong><br>";
     ?>
 
 </body>
