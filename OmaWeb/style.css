@@ -19,18 +19,39 @@
         nav ul li a:hover {
             background-color: #111;
         }
-        /* Aktiivisen linkin korostus (tämä oli osittain valmiina ohjeessa) */
+
         nav ul li.active a {
             background-color: #007bff;
             color: white;
         }
 
-        /* Muita perusmuotoiluja sivulle */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         main {
+            padding: 20px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;          
+            max-width: 500px;     
+            padding: 10px;        
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; 
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        textarea {
+            height: 120px;
+            resize: vertical;     
+        }
+
+        main {
+            max-width: 900px;     /* Sivuston maksimileveys */
+            margin: 0 auto;       /* Keskiöi sivuston ruudulle */
             padding: 20px;
         }

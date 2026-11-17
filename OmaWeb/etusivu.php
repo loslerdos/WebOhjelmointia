@@ -2,53 +2,26 @@
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Etusivu - Meidän Firma</title>
-    <style>
-        /* Perustyylit navigaatiolle, jotta siitä tulee tuon esimerkkikuvan näköinen */
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav ul li {
-            float: left;
-        }
-        nav ul li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
-        nav ul li a:hover {
-            background-color: #111;
-        }
-        /* Aktiivisen linkin korostus (tämä oli osittain valmiina ohjeessa) */
-        nav ul li.active a {
-            background-color: #007bff;
-            color: white;
-        }
-
-        /* Muita perusmuotoiluja sivulle */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        main {
-            padding: 20px;
-        }
-    </style>
+    <title>Etusivu - Edgar Allan Poe -runokilpailu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <?php include 'navigaatio.php'; ?>
     </header>
     <main>
-        <h1>Tervetuloa etusivulle!</h1>
-        <p>Tämä on dynaamisella navigaatiolla varustetun sivustomme pääsivu.</p>
+        <h1 style="text-align: center;">Tervetuloa Edgar Allan Poe -runokilpailuun!</h1>
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <p>Oletko valmis sukeltamaan mysteerien, synkkien varjojen ja syvien tunteiden maailmaan? Järjestämme vuotuisen runokilpailun, joka on saanut inspiraationsa kauhun ja romanttisen runouden mestarilta, **Edgar Allan Poelta**.</p>
+            <p>Tehtävänäsi on kirjoittaa runo, joka henkii Poen tuotannon tunnelmaa. Valitse ensin *Aiheet*-sivulta mieleisesi kuva tai inspiraatio, ja lähetä oma runosi kilpailuun *Kilpailulomake*-sivun kautta!</p>
+            <p><strong>Parhaat runot palkitaan!</strong> Kilpailu päättyy kuun lopussa.</p>
+            
+            <!-- Kuva siirretty tekstin alapuolelle ja keskitetty -->
+            <div style="margin-top: 30px;">
+                <img src="Kuvat/Poe.png" alt="Edgar Allan Poe" style="max-width: 250px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
     </main>
 </body>
 </html>
