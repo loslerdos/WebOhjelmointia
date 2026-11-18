@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Yhteystiedot - Meidän Firma</title>
+    <title>Kilpailulomake - Meidän Firma</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>

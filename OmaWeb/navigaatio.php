@@ -4,7 +4,7 @@
 $sivut = [
     'Etusivu' => 'etusivu.php',
     'Aiheet' => 'aiheet.php',
-    'Ota yhteyttä' => 'yhteystiedot.php'
+    'Kilpailulomake' => 'kilpailulomake.php'
 ];
 
 // Haetaan nykyisen sivun tiedostonimi
