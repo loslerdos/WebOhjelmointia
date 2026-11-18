@@ -27,7 +27,7 @@
             <div style="max-width: 250px;">
                 <img src="Kuvat/poro.png" alt="Autio kartano" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                 <h3>Poro</h3>
-                <p>Katoavaisuus, pölyttyneet huoneet ja menneisyyden varjot.</p>
+                <p>Synkkä ja salaperäinen teema kaipaavasta mielestä ja öisistä vieraista.</p>
                 
             </div>
 
